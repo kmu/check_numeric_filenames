@@ -1,0 +1,15 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "check_numeric_filenames"
+author = "Koki Muraoka"
+author-email = "muraok_k@chemsys.t.u-tokyo.ac.jp"
+home-page = "https://github.com/kmu/check_numeric_filenames"
+description-file = "README.md"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
+[tool.flit.scripts]
+check_numeric_filenames = "check_numeric_filenames.check_numeric_filenames:main"
+
