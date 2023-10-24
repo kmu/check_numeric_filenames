@@ -1,0 +1,7 @@
+- id: check-numeric-filenames
+  name: Check Numeric Filenames
+  description: Ensures there are no python files with purely numeric filenames.
+  entry: ./check_numeric_filenames.py
+  language: python
+  types: [python]
+
